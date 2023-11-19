@@ -1,0 +1,53 @@
+body{
+
+}   
+
+header{
+    background-color: red;
+}
+
+.header{
+    display: flex;
+    flex: 100%;
+    font-size: 200%;
+}
+
+.highScoreHeader{
+    flex: 80%;
+    text-decoration: none;
+    margin-left: 2%;
+ 
+}
+
+.highScoreLink{
+    color: black;
+}
+
+.timer{
+    flex: 2%;
+    margin-right: 2%;
+}
+
+.startPage{
+    text-align: center;
+    margin: 8%;
+    font-size: 200%;
+}
+
+.startPageTitle{
+    font-size: 200%;
+}
+
+.quizRules{
+
+}
+
+.startButton{
+    color: black;
+}
+
+
+
+footer{
+    text-align: center;
+}
