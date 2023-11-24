@@ -1,10 +1,19 @@
 
-document.getElementById("questionOne").style.display = "none";
+function hide(id){
+    document.getElementById(id).style.display = 'none';
+};
 
-document.getElementById("questionTwo").style.display = "none";
+function show(id){
+    document.getElementById(id).style.display = 'block';
+};
 
-document.getElementById("questionThree").style.display = "none";
 
-Object.onclick("startButton") = function(){
-    document.getElementById("startPage").style.display = "none";
-}
+
+document.getElementById("startButton").addEventListener("click", function(){
+    hide("startPage");
+});
+
+document.getElementById("restartButton").addEventListener("click", function(){
+    show("startPage");
+});
+

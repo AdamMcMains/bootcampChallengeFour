@@ -43,11 +43,23 @@ header{
 }
 
 .startButton{
-    color: black;
+    font-size: 100%;
 }
 
 
 
 footer{
     text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 15%;
+}   
+
+.footer{
+
+}
+
+.restartButton{
+    font-size: 150%;
 }
