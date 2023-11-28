@@ -38,22 +38,42 @@ header{
     font-size: 200%;
 }
 
-.quizRules{
-
-}
-
 .startButton{
     font-size: 100%;
 }
 
+.currentQuestion{
+    display: flex;
+    font-size: 400%;
+    justify-content: center;
+    margin-top: 8%;
+    margin-bottom: 5%;
+}
+.answerButtonSection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 45%;
+    margin-left: 45%;
 
+
+}
+
+.answerButtons{
+    display: flex;
+    justify-content: center;
+    font-size: 200%;
+    margin-top: 10%;
+
+}
 
 footer{
-    text-align: center;
+    display: flex;
     position: fixed;
     bottom: 0;
     width: 100%;
-    height: 15%;
+    height: 5%;
+    margin: 1%;
 }   
 
 .footer{
@@ -61,5 +81,5 @@ footer{
 }
 
 .restartButton{
-    font-size: 150%;
+    font-size: 200%;
 }
